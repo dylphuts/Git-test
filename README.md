@@ -1,0 +1,1 @@
+I am using this repo to practice using git and setting it up for future classes and projects. I have some personal projecrts I have yet to connect and think this will be a big help.

@@ -10,6 +10,20 @@
 #include <iostream>
 using namespace std;
 
+int summation(int n);
+
 int main(){
-  cout<<"Hello World!"<<endl;
+  int n=0;
+  cout<<"Enter a number please."<<endl;
+  cin>>n;
+  cout<<summation(n);
+}
+
+int summation(int n){
+  int total=0;
+  for(int i=1;i<=n; i++){
+    total+=i;
+  }
+
+  return total;
 }
